@@ -1,0 +1,41 @@
+{
+	"1" : [
+				{"id" : "1.1", "model" : "Adidas_S1", "price" : "7,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/adidas/adidas1.png", "details" : "Warranty upto 2 years"},
+				{"id" : "1.2", "model" : "Adidas_S1", "price" : "7,700", "stock" : "yes", "image" : "./assets/shoes/sports shoes/adidas/adidas2.png", "details" : "Warranty upto 2 years"},
+				{"id" : "1.3", "model" : "Adidas_S2", "price" : "8,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/adidas/adidas3.png", "details" : "Warranty upto 2 years"},
+				{"id" : "1.4", "model" : "Adidas_S2", "price" : "7,800", "stock" : "yes", "image" : "./assets/shoes/sports shoes/adidas/adidas4.png", "details" : "Warranty upto 2 years"},
+				{"id" : "1.5", "model" : "Adidas_S3", "price" : "9,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/adidas/adidas5.png", "details" : "Warranty upto 2 years"}
+	],
+
+	"2" : [
+			  {"id" : "2.1", "model" : "Puma_1", "price" : "6,600", "stock" : "yes", "image" : "./assets/shoes/sports shoes/puma/puma1.png", "details" : "Warranty upto 2 years"},
+			  {"id" : "2.2", "model" : "Puma_2", "price" : "7,600", "stock" : "yes", "image" : "./assets/shoes/sports shoes/puma/puma2.png", "details" : "Warranty upto 2 years"},
+			  {"id" : "2.3", "model" : "Puma_2", "price" : "7,650", "stock" : "yes", "image" : "./assets/shoes/sports shoes/puma/puma3.png", "details" : "Warranty upto 2 years"},
+			  {"id" : "2.4", "model" : "Puma_3", "price" : "7,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/puma/puma4.png", "details" : "Warranty upto 2 years"},
+			  {"id" : "2.5", "model" : "Puma_4", "price" : "9,600", "stock" : "yes", "image" : "./assets/shoes/sports shoes/puma/puma5.png", "details" : "Warranty upto 2 years"}
+	],
+
+	"3" : [
+			   {"id" : "3.1", "model" : "Sparx_1", "price" : "4,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/sparx/sparx1.png", "details" : "Warranty upto 2 years"},
+			   {"id" : "3.2", "model" : "Sparx_2", "price" : "5,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/sparx/sparx2.png", "details" : "Warranty upto 2 years"},
+			   {"id" : "3.3", "model" : "Sparx_3", "price" : "7,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/sparx/sparx3.png", "details" : "Warranty upto 2 years"},
+			   {"id" : "3.4", "model" : "Sparx_3", "price" : "6,550", "stock" : "yes", "image" : "./assets/shoes/sports shoes/sparx/sparx4.png", "details" : "Warranty upto 2 years"}
+	],
+
+	"0" : [
+			{"id" : "1.1", "model" : "Adidas_S1", "price" : "7,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/adidas/adidas1.png", "details" : "Warranty upto 2 years"},
+			{"id" : "1.2", "model" : "Adidas_S1", "price" : "7,700", "stock" : "yes", "image" : "./assets/shoes/sports shoes/adidas/adidas2.png", "details" : "Warranty upto 2 years"},
+			{"id" : "1.3", "model" : "Adidas_S2", "price" : "8,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/adidas/adidas3.png", "details" : "Warranty upto 2 years"},
+			{"id" : "1.4", "model" : "Adidas_S2", "price" : "7,800", "stock" : "yes", "image" : "./assets/shoes/sports shoes/adidas/adidas4.png", "details" : "Warranty upto 2 years"},
+			{"id" : "1.5", "model" : "Adidas_S3", "price" : "9,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/adidas/adidas5.png", "details" : "Warranty upto 2 years"},
+			{"id" : "2.1", "model" : "Puma_1", "price" : "6,600", "stock" : "yes", "image" : "./assets/shoes/sports shoes/puma/puma1.png", "details" : "Warranty upto 2 years"},
+			{"id" : "2.2", "model" : "Puma_2", "price" : "7,600", "stock" : "yes", "image" : "./assets/shoes/sports shoes/puma/puma2.png", "details" : "Warranty upto 2 years"},
+			{"id" : "2.3", "model" : "Puma_2", "price" : "7,650", "stock" : "yes", "image" : "./assets/shoes/sports shoes/puma/puma3.png", "details" : "Warranty upto 2 years"},
+			{"id" : "2.4", "model" : "Puma_3", "price" : "7,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/puma/puma4.png", "details" : "Warranty upto 2 years"},
+			{"id" : "2.5", "model" : "Puma_4", "price" : "9,600", "stock" : "yes", "image" : "./assets/shoes/sports shoes/puma/puma5.png", "details" : "Warranty upto 2 years"},
+			{"id" : "3.1", "model" : "Sparx_1", "price" : "4,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/sparx/sparx1.png", "details" : "Warranty upto 2 years"},
+			{"id" : "3.2", "model" : "Sparx_2", "price" : "5,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/sparx/sparx2.png", "details" : "Warranty upto 2 years"},
+			{"id" : "3.3", "model" : "Sparx_3", "price" : "7,000", "stock" : "yes", "image" : "./assets/shoes/sports shoes/sparx/sparx3.png", "details" : "Warranty upto 2 years"},
+			{"id" : "3.4", "model" : "Sparx_3", "price" : "6,550", "stock" : "yes", "image" : "./assets/shoes/sports shoes/sparx/sparx4.png", "details" : "Warranty upto 2 years"}
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "flipkart",
+  "version": "1.0.0",
+  "description": "flipkart website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vibhor agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bootbox": "^4.4.0",
+    "express": "^4.13.4",
+    "nedb": "^1.8.0"
+  }
+}

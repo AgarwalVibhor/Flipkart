@@ -1,0 +1,22 @@
+<div class="container" data-ng-controller="CartController">
+	<h2 class="result">Total number of items in cart : {{ _noOfItems }}</h2>
+	<div class="row" data-ng-repeat="item in _allItems">
+		<div class="col-md-offset-1 col-md-3" style="text-align: center;">
+			<h3 class="result1" style="margin-top: 80px;">Product ID : {{ item.id }}</h3>
+			<br />
+			<h3 class="result1"><i class="fa fa-inr" aria-hidden="true"></i>{{ item.price }}.00</h3>
+		</div>
+		<div class="col-md-offset-1 col-md-3" style="text-align: center;">
+			<img data-ng-src="{{ item.image }}" alt="Product Image" style="width: 300px; height: 300px; cursor: pointer;" data-ng-click="showDetails(item);">
+		</div>
+		<div class="col-md-offset-1 col-md-3" style="text-align: center;">
+			<button class="btn btn-primary" value="Buy Now" style="margin-top: 110px;">BUY NOW</button>
+		</div>
+		<br />
+		<hr class="cartLine">
+	</div>
+	<br />
+	<br />
+	<button class="btn btn-danger" value="Buy All" style="margin-left: 500px;">BUY ALL THE ITEMS IN CART</button>
+</div>
+<br />

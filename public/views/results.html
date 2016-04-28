@@ -1,0 +1,35 @@
+<div class="container" data-ng-controller="ResultsController">
+	<div>
+		<div>
+			<h2 class="result">Results for {{ name }}</h2>
+			<h4 class="sideResult">Sort prices from :</h4>
+			<button class="btn btn-success" data-ng-click="setAscending();" style="margin-left: 860px;">LOW TO HIGH</button>
+			&nbsp;
+			&nbsp;
+			&nbsp;
+			<button class="btn btn-warning" data-ng-click="setDescending();">HIGH TO LOW</button>
+		</div>
+		<br />
+		<div class="row">
+			<div class="col-md-4 border" data-ng-repeat="image in images | orderBy : 'price'" style="text-align: center;" data-ng-show="ascending">
+				<img data-ng-src="{{ image.image }}" alt="Product Image Not Available" data-ng-click="showDetails(image);" style="width: 300px; height: 300px; cursor: pointer;">
+				<br />
+				<span class="price"><i class="fa fa-inr"></i>{{ image.price }}.00</span>
+				<br />
+				<button class="btn btn-danger" value="Add To Cart" data-ng-click="addCart(image);">ADD TO CART</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary" value="Buy Now">BUY NOW</button>
+				<br />
+				<br />
+			</div>
+			<div class="col-md-4 border" data-ng-repeat="image in images | orderBy : '-price'" style="text-align: center;" data-ng-show="!ascending">
+				<img data-ng-src="{{ image.image }}" alt="Product Image Not Available" data-ng-click="showDetails(image);" style="width: 300px; height: 300px; cursor: pointer;">
+				<br />
+				<span class="price"><i class="fa fa-inr"></i>{{ image.price }}.00</span>
+				<br />
+				<button class="btn btn-danger" value="Add To Cart" data-ng-click="addCart(image);">ADD TO CART</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary" value="Buy Now">BUY NOW</button>
+				<br />
+				<br />
+			</div>
+		</div>
+		<hr />
+	</div>
+</div>

@@ -1,0 +1,80 @@
+<div class="container-fluid home" data-ng-controller="HomeController" style="margin-top: -20px;">
+	<div class="row" style="margin-top: 60px;">
+		<div class="col-md-offset-6 col-md-4">
+			<form role="form" name="myForm">
+				<div class="form-group">
+					<label for="product">Select The Product :</label>
+					<select class="form-control" name="name" id="name" data-ng-model="name" data-ng-change="setWarning1(); getBrands();">
+					<option value="0">--Select a Product--</option>
+					<option value="smartphones">Smartphones</option>
+					<option value="watches">Wrist Watches</option>
+					<option value="Men's Shoes">Men's Shoes</option>
+					</select>
+					<div class="alert alert-warning" data-ng-show="warning1">
+						<strong>Warning!</strong> You need to select a product.
+					</div>
+				</div>
+				<div class="form-group" data-ng-show="shoes">
+					<label for="category">Select The Category Of Shoes :</label>
+					<select class="form-control" name="category" id="category" data-ng-model="category" data-ng-change="setShow();
+					getShoesBrands();">
+						<option value="0">Select Category</option>
+						<option data-ng-repeat="ctg in categories" value="{{ ctg.id }}">{{ ctg.name }}</option>
+					</select>
+					<div class="alert alert-warning" data-ng-show="show">
+						<strong>Warning!</strong> You need to select a category of the shoes.
+					</div>
+				</div>
+				<div class="form-group" data-ng-show="either">
+					<label for="shoesBrand">Select A Brand For The Product :</label>
+					<select class="form-control" name="shoesBrand" id="shoesBrand" data-ng-model="shoesBrand" data-ng-change="setWarning2();">
+						<option value="initial">Select a Brand</option>
+						<option data-ng-repeat="shoesBrand in shoesBrands" value="{{ shoesBrand.id }}">{{ shoesBrand.brand }}</option>
+					</select>
+					<div class="alert alert-warning" data-ng-show="warning2">
+						<strong>Warning!</strong> You need to select a brand for the shoes.
+					</div>
+				</div>
+				<div class="form-group" data-ng-show="!either">
+					<label for="brand">Select A Brand For The Product :</label>
+					<select class="form-control" name="brand" id="brand" data-ng-model="brand" data-ng-change="setWarning3();">
+						<option value="initial">Select a Brand</option>
+						<option data-ng-repeat="brand in brands" value="{{ brand.id }}">{{ brand.brand }}</option>
+					</select>
+					<div class="alert alert-warning" data-ng-show="warning3">
+						<strong>Warning!</strong> You need to select a brand for the product.
+					</div>
+				</div>
+				<button class="btn btn-danger" value="Find Products" data-ng-click="afterHome();">FIND PRODUCTS</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-offset-1 col-md-4">
+			<h2 class="heading"><i class="fa fa-users" style="font-size: 40px; color: red; margin-right: 15px;"></i>Who are we ?</h2>
+			<p class="paragraph">This website has been created by two of us guys who graduated from IIT Delhi and then after working in am MNC for about 5 years thought of starting an oraganisation of our own which could server people. We are Saching Bansal and Binny Bansal and we came up with the idea of Flipkart. We hope that we are on the right path and we are able to fulfill the needs and expectations of the people.</p>
+			<button class="btn btn-primary">Know More<i style="margin-left: 3px;" class="fa fa-chevron-circle-right"></i></button>
+		</div>
+		<div class="col-md-offset-1 col-md-4">
+			<h2 class="heading"><i class="fa fa-hand-pointer-o" aria-hidden="true" style="font-size: 40px; color: red; margin-right: 15px;"></i>Why do you need us ?</h2>
+			<p class="paragraph">This is a world of competition where people are worj=king day and night to progress forward and beat their competitors. In this fast moving world, people do not have time to sit and relax with their families because after their office duties are over, their family duties starts. We have tried to easy the family duties part by providing all the necessary items at one place and of course throgh Internet.</p>
+			<button class="btn btn-primary">Know More<i style="margin-left: 3px;" class="fa fa-chevron-circle-right"></i></button>
+		</div>
+	</div>
+	<hr />
+	<div class="row">
+		<div class="col-md-offset-1 col-md-4">
+			<h2 class="heading"><i class="fa fa-cogs" aria-hidden="true" style="font-size: 40px; color: red; margin-right: 15px;"></i>Our services !</h2>
+			<p class="paragraph">Flipkart is a site where you would all kinds of items right from your accessories to your car's accessories. An intem as small as nail-cutter to an item as large as an almirah. All the electronics , electrical items are available. Others include all the jwellery items at the best of prices and the best of quality. We try our best to make your lives simpler. Home-Delivery is also one of the services provided by Flipkart without any extra cost until and unless the items come from far distant places.</p>
+			<button class="btn btn-success">Know More<i style="margin-left: 3px;" class="fa fa-chevron-circle-right"></i></button>
+		</div>
+		<div class="col-md-offset-1 col-md-5">
+			<h2 class="heading"><i class="fa fa-thumbs-up" aria-hidden="true" style="font-size: 40px; color: red; margin-right: 15px;"></i>Why should you trust us ?</h2>
+			<p class="paragraph">We have brought all the dealers from all the brands at one place. They provide the items at the best of prices and to the best of quality. We do not compromise on the quality of items. You van expect from us that all the items provided to you will be brand new and also seal packed. Even if a customer is dissatisfied with our services, he can call at our helpline number and we will be ready to help him in any way we can.</p>
+			<button class="btn btn-success">Know More<i style="margin-left: 3px;" class="fa fa-chevron-circle-right"></i></button>
+		</div>
+	</div>
+</div>

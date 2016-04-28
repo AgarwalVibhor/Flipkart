@@ -1,0 +1,34 @@
+{
+	"smartphones" : [
+					  {"id" : "0", "brand" : "All Brands"},
+					  {"id" : "1", "brand" : "Apple"},
+					  {"id" : "2", "brand" : "Microsoft"},
+					  {"id" : "3", "brand" : "Motorola"},
+					  {"id" : "4", "brand" : "Samsung"}
+	],
+
+	"watches" : [
+	             {"id" : "0", "brand" : "All Brands"},
+				 {"id" : "1", "brand" : "Fastrack"},
+				 {"id" : "2", "brand" : "Timex"},
+				 {"id" : "3", "brand" : "Titan"}
+	],
+
+	"shoes" : [
+				{"id" : "1", "name" : "formal shoes"},
+				{"id" : "2", "name" : "sports shoes"}
+	],
+
+	"sports" : [
+	                  {"id" : "0", "brand" : "All Brands"},
+					  {"id" : "1", "brand" : "adidas"},
+					  {"id" : "2", "brand" : "puma"},
+					  {"id" : "3", "brand" : "sparx"}	
+	],
+
+	"formal" : [
+				      {"id" : "0", "brand" : "All Brands"},
+					  {"id" : "1", "brand" : "adidas"},
+					  {"id" : "2", "brand" : "bata"}
+	]
+}

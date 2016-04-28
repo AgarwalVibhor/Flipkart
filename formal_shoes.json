@@ -1,0 +1,36 @@
+{
+	"1" : [
+				{"id" : "1.1", "model" : "Adidas_F1", "price" : "5,000", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas1.png", "details" : "Warranty upto 2 yeras"},
+				{"id" : "1.2", "model" : "Adidas_F1", "price" : "6,000", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas2.png", "details" : "Warranty upto 2 yeras"},
+				{"id" : "1.3", "model" : "Adidas_F2", "price" : "5,550", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas3.png", "details" : "Warranty upto 2 yeras"},
+				{"id" : "1.4", "model" : "Adidas_F2", "price" : "4,990", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas4.png", "details" : "Warranty upto 2 yeras"},
+				{"id" : "1.5", "model" : "Adidas_F3", "price" : "5,600", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas5.png", "details" : "Warranty upto 2 yeras"},
+				{"id" : "1.6", "model" : "Adidas_F4", "price" : "7,000", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas6.png", "details" : "Warranty upto 2 yeras"}
+	],
+
+	"2" : [
+			  {"id" : "2.1", "model" : "Bata_F1", "price" : "7,000", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata1.png", "details" : "Warranty upto 2 years"},
+			  {"id" : "2.2", "model" : "Bata_F2", "price" : "8,000", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata2.png", "details" : "Warranty upto 2 years"},
+			  {"id" : "2.3", "model" : "Bata_F2", "price" : "8,800", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata3.png", "details" : "Warranty upto 2 years"},
+			  {"id" : "2.4", "model" : "Bata_F2", "price" : "7,750", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata4.png", "details" : "Warranty upto 2 years"},
+			  {"id" : "2.5", "model" : "Bata_F3", "price" : "9,100", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata5.png", "details" : "Warranty upto 2 years"},
+			  {"id" : "2.6", "model" : "Bata_F4", "price" : "9,500", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata6.png", "details" : "Warranty upto 2 years"},
+			  {"id" : "2.7", "model" : "Bata_F4", "price" : "8,990", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata7.png", "details" : "Warranty upto 2 years"}
+	],
+
+	"0" : [
+			{"id" : "1.1", "model" : "Adidas_F1", "price" : "5,000", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas1.png", "details" : "Warranty upto 2 yeras"},
+			{"id" : "1.2", "model" : "Adidas_F1", "price" : "6,000", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas2.png", "details" : "Warranty upto 2 yeras"},
+			{"id" : "1.3", "model" : "Adidas_F2", "price" : "5,550", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas3.png", "details" : "Warranty upto 2 yeras"},
+			{"id" : "1.4", "model" : "Adidas_F2", "price" : "4,990", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas4.png", "details" : "Warranty upto 2 yeras"},
+			{"id" : "1.5", "model" : "Adidas_F3", "price" : "5,600", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas5.png", "details" : "Warranty upto 2 yeras"},
+			{"id" : "1.6", "model" : "Adidas_F4", "price" : "7,000", "stock" : "yes", "image" : "./assets/shoes/formal shoes/adidas/adidas6.png", "details" : "Warranty upto 2 yeras"},
+			{"id" : "2.1", "model" : "Bata_F1", "price" : "7,000", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata1.png", "details" : "Warranty upto 2 years"},
+			{"id" : "2.2", "model" : "Bata_F2", "price" : "8,000", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata2.png", "details" : "Warranty upto 2 years"},
+			{"id" : "2.3", "model" : "Bata_F2", "price" : "8,800", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata3.png", "details" : "Warranty upto 2 years"},
+			{"id" : "2.4", "model" : "Bata_F2", "price" : "7,750", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata4.png", "details" : "Warranty upto 2 years"},
+			{"id" : "2.5", "model" : "Bata_F3", "price" : "9,100", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata5.png", "details" : "Warranty upto 2 years"},
+			{"id" : "2.6", "model" : "Bata_F4", "price" : "9,500", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata6.png", "details" : "Warranty upto 2 years"},
+			{"id" : "2.7", "model" : "Bata_F4", "price" : "8,990", "stock" : "yes", "image" : "./assets/shoes/formal shoes/bata/bata7.png", "details" : "Warranty upto 2 years"}
+	]
+}
